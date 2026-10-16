@@ -1,0 +1,4 @@
+cloth.jpg: pink t-shirt 
+06802_00.jpg: shirt
+07429_00.jpg: shirt
+01430_00.jpg: shirt

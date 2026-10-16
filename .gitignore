@@ -1,0 +1,78 @@
+# Python / envs
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.venv/
+**/venv/
+**/env/
+**/.conda/
+**/site-packages/
+
+# Caches
+**/.pip-cache/
+**/.cache/
+**/.pytest_cache/
+**/.mypy_cache/
+
+# Outputs / artifacts
+**/output/
+**/outputs/
+**/runs/
+**/logs/
+**/checkpoint/
+**/checkpoints/
+**/weights/
+**/results/
+
+# Large model/data formats
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.bin
+*.h5
+*.pb
+*.npy
+*.npz
+*.zip
+*.7z
+*.tar
+*.gz
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Runtime jobs, additional caches, and temporary files
+/mobile_vton_fastapi/runtime/
+.hf_cache/
+.npm-cache/
+.ruff_cache/
+.tmp/
+tmp/
+temp/
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+
+# Dependencies and build output
+node_modules/
+build/
+dist/
+coverage/
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor settings
+.idea/
+.vscode/
